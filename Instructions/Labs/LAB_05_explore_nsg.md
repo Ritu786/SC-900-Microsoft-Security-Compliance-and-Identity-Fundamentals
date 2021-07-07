@@ -120,7 +120,8 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Action:  **Allow**
     1. Priority:  **300**; Note: rules with lower numbers have higher priority and are processed first.
     1. Name:  **AllowRDP**
-1. Select **Add**
+    1. Select **Add**
+    
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/10.png)
 
 1. Once the rule is provisioned, it will appear on the list of inbound rules.
@@ -154,7 +155,8 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Action: **Deny**
     1. Priority:  **4000**
     1. Name:  **DenyInternet**
-1. Select **Add**
+    1. Select **Add**
+    
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/12.png)
 
 1. Once the rule is provisioned, it will appear on the list of outbound rules.  Although it appears on the list, it will take a few minutes to take effect (wait a few minutes before continuing with the next steps).  
@@ -163,7 +165,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
-#### Task 5:  IMPORTANT: In this task you will delete the resource group and all the resources it contains.   This is important to avoid additional charges.
+#### Task 5:  IMPORTANT: In this task you will delete the resource group and all the resources it contains. This is important to avoid additional charges.
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
