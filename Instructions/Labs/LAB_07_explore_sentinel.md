@@ -19,7 +19,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 1. Open Microsoft Edge. In the address bar enter **portal.azure.com**.
 
 2. Sign in with your admin credentials.
-    .
+    
     1. In the Sign in window enter **odl_user_XXXXXX@cloudlabsai.com** (where XXXXXX is your unique ID provided on the lab environment page) then select **Next**.    
     1. Enter the admin password which should be provided on the lab environment page. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
