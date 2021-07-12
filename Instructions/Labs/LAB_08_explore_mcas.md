@@ -17,31 +17,44 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+    1. In the Sign in window enter **odl_user_XXXXXX@cloudlabsai.com** (where XXXXXX is your unique ID provided on the lab environment page) then select **Next**.
+    1. Enter the admin password which should be provided on the lab environment page. Select **Sign in**.
+    1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
-1. From the bottom of the left navigation panel of the Microsoft 365 Defender page, select **More resources**.
+    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/8-1.png)
 
-1. On the **Microsoft Cloud App Security** card, select **Open**.  A new browser page opens to the Cloud App Security Dashboard.  Note the information cards that are available.  It is possible you may not see any information on the cards, as this is a preconfigured lab tenant environment that has not been actively used.  
+1. Under **Alerts** Select **Managed advanced alerts**. On the **Office 365 Cloud App Security** card, select **Open**.
+
+    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/8-2.png)
 
 1. From the left navigation panel, select **Discover** then from the drop-down select **Cloud Discovery dashboard**.  The dashboard includes and overview of discovered apps, app categories, risk levels, and more.  
-    1. From the top of the Cloud Discovery page, select the **Discovered apps** tab.  The discovered apps window provides a more detailed view of the discovered apps, including risk score, traffic, number of users and more.
+
+    **Note:** As for the new user there is no data visible, for now you can **view the Data Sample** 
+
+    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/8-3.png)
+
+1. From the top of the Cloud Discovery page, select the **Discovered apps** tab.  The discovered apps window provides a more detailed view of the discovered apps, including risk score, traffic, number of users and more.
         1. From any item on the list, select the **ellipses** in the actions’ column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the ellipses, again, to close the actions box.
         1. Selecting a specific line item opens a details page for the specific app.  Select an item from the list.  For the selected item go through each tab on the top of the details page:  **Usage**, **Info, IP**, **Addresses**, **Users**, and **Alerts**. When you are done exploring the details page, return to discovered apps, by selecting **Discovered apps** from the left navigation panel.
     1. From the top of the page, select the **IP addresses** tab (this is equivalent to selecting IP addresses from the left navigation pane).  Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP address or export the data for further analysis.
     1. From the top of the page (or the left navigation pane) select **Users**.  This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific user and export data for further analysis.
 
 1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.  To see where this is setup, select the **ellipses** on the top-right corner of the page.
-    1. Select the first option, **Create Cloud Discovery snapshot report**. Here you would fill in the requested details and upload traffic logs to generate and upload a report.  Select **Cancel**.  The data you are seeing for your lab tenant came from a Snapshot report, you can see this information on the top right corner of the screen.
+   
+   1. Select the first option, **Create snapshot report**. Here you would fill in the requested details and upload traffic logs to generate and upload a report.  Select **Cancel**.  The data you are seeing for your lab tenant came from a Snapshot report, you can see this information on the top right corner of the screen.
+    
+        ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/8-5.png)
+    
     1. To see the option for continuous reports, select the **ellipses** on the top-right corner of the page and from the drop-down select **Configure automatic upload**.  There are no data sources connected, but this is where you would add a data source. Select the **Select Appliance** drop-down arrow to see the types of appliances that you can connect as a data source.  Select **Cancel** to exit.
 
 1. Another point to call out is that you can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top left corner of the screen, select the **Settings cog icon** and from the drop-down list, select **App connectors**.  
+    
     1. On the Connected apps page, you should see Office 365 on the list with a connected status.  If Office 365 is showing a connection error, it is most likely because Audit is not turned on.
+    
     1. Select **+Connect an app** and from the drop-down list select **Microsoft Azure**.  From the Microsoft Azure pop-up window, select **Connect Microsoft Azure**.  You will see a connected status and information on scanning users, data, and activities.  Select the **Close button**.
 
 1. Keep this page open, as you will use it in the next task.
