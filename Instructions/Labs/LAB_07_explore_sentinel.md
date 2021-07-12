@@ -68,19 +68,19 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 4. From the SC900-ResourceGroup page, select **Access control (IAM)** from the left navigation panel.
 
-5. From the Access control page, select **View my access**.  Note the current role Owner.  Close the assignments window by selecting the **X** on the top-right corner of the window.
+5. From the Access control page, select **View my access**.  Note the current role is Owner.  Close the assignments window by selecting the **X** on the top-right corner of the window.
 
     ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-1.png)
 
 6. If the the role is not owner then follow the below steps:
 
-    1.From the Access control page, select **+Add**, then select **Add role assignment**.
+    1. From the Access control page, select **+Add**, then select **Add role assignment**.
 
-    1.The Add role assignment window opens.  Select the drop-down arrow in the Select a role field to display the available roles.  For this lab, select **Owner**.  NOTE:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
+    1. The Add role assignment window opens.  Select the drop-down arrow in the Select a role field to display the available roles.  For this lab, select **Owner**.  NOTE:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
 
-    1.From the list of users displayed, select **UserName** given on the lab environment page.
+    1. From the list of users displayed, select **UserName** given on the lab environment page.
 
-    1.Select **Save** at the bottom of the page.
+    1. Select **Save** at the bottom of the page.
 
     1. From the access control page, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right corner of the window.
 
