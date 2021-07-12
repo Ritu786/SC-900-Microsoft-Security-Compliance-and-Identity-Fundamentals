@@ -106,11 +106,17 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 7. The instructions tab in the main window, provides the perquisites for Azure Sentinel to integrate with Azure Active Directory.   Under configuration, select **Sign-in logs** then select Apply Changes (multiple connectors can be chosen).
 
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-2.png)
+
 8. From the Next steps tab, note the list of recommended workbooks.   Under recommended workbooks, select **Azure Sign-in logs** (additional workbooks can be chosen).
+
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-3.png)
 
 9. From the workbooks page and with the templates tab selected (underlined), select **Azure Sign-in logs**. 
 
 10. From the Azure AD Sign-in logs window that opens, review the description, and select **View template**.  Exit out of the template, by selecting the **X** on the top-right corner of the screen.  Select **Save** from the bottom of the page, then select **OK** to save the workbook to the default location.
+
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-4.png)
 
 11. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Azure Sentinel**. This returns you to the Azure Sentinel Data Connectors page.
 
@@ -119,6 +125,8 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 13. From the left navigation panel, select **Workbooks**.
 
 14. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you just saved is listed and available for you to view and monitor your data.
+
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-5.png)
 
 15. Keep this page open, as you will use it in the next task.
 
